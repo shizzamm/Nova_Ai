@@ -1,0 +1,38 @@
+body {
+    background-color: #0f172a;
+    color: white;
+}
+
+.stApp {
+    background: linear-gradient(to right, #0f172a, #111827);
+}
+
+h1, h2, h3 {
+    color: #38bdf8;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #020617;
+}
+
+.stButton button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    height: 3em;
+    width: 100%;
+    font-size: 16px;
+}
+
+.stButton button:hover {
+    background-color: #38bdf8;
+    color: black;
+}
+
+.stTextInput input {
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+}
